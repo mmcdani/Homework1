@@ -8,30 +8,30 @@ editor: visual
 
 ## Questions
 
-1.  What do you think data science is about?
+### 1.  What do you think data science is about?
 Data science is about finding a problem to a solution. You should be able to gather useful data to figure out a problem. Also being able to clean data and digest what is useful and what is not. 
 
-2.  What differences/similarities do you see between data science and statisticians?
-A key difference is that data science involves a wider range of data. Statistics only includes quantitative data, but data science includes quantitative and qualitative. Data science can use not only numerical values but also videos and images. Another difference is the amount of data being analyzed. Statistics works with a smaller scale of data while data science works with a large scale. The two fields are similar in a sense that they are both using data to solve problems. I think a good foundation of statistics is needed to be able to grasp data science fully. 
+### 2. What differences/similarities do you see between data science and statisticians?
+A key difference is that data science involves a wider range of data. Statistics only includes quantitative data, but data science includes quantitative and qualitative. Data science can use not only numerical values but also videos and images. Another difference is the amount of data being analyzed. Statistics typically works with a smaller scale of data while data science works with a large scale. The two fields are similar in a sense that they are both using data to solve problems. I think a good foundation of statistics is needed to be able to grasp data science fully. 
 
-3.  How do you view yourself in relation to these two areas? 
-Honestly, I am not sure. I am still very new to the program. I took a statistics course during my first semester and it went well. I do not know if id enjoy turning data into visuals or looking at visuals and figuring out the data. 
+### 3. How do you view yourself in relation to these two areas? 
+Honestly, I am not sure. I am still very new to the program. My undergrad degree is in Chemistry, but I had a minor in math which I really enjoyed. I have taken one statistics course and I thought it was interesting. I am still figuring out the path that I want to take in this program. I think I am leaning towards data science with a concentration in statistics. So, I will be involved in both areas in the future. 
 
 ## Running Code
 
-Let's assign object y
+### Let's assign object y
 ```{r}
 y <- density(iris$Petal.Width)
 ```
 
-Class, type, and structure of the object y
+### Class, type, and structure of object y
 ```{r}
 class(y)
 typeof(y)
 str(y)
 ```
 
-Plot of y
+### Plot of y
 
 ```{r}
 #| echo: false
